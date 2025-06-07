@@ -1,6 +1,3 @@
-# Backend README
-
-````markdown
 # Hogwarts Houses Backend (Node.js REST API)
 
 ## Overview
