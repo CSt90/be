@@ -16,9 +16,10 @@ This Node.js API serves Hogwarts houses data with optional filtering by house na
 ```bash
 npm install
 node server
+```
 API listens on port 5000 by default.
 
-API Usage
+## API Usage
 - Get all houses:
 
 GET http://localhost:5000/houses
@@ -32,5 +33,5 @@ Notes
 The backend is optional and mainly used for demonstrating server-side filtering.
 The frontend can point to this backend or the external API by setting the NEXT_PUBLIC_API_URL environment variable.
 The external API does not support filtering, so client-side filtering is needed in that case.
-```
+
 ````
