@@ -19,13 +19,13 @@ node server
 API listens on port 5000 by default.
 
 API Usage
-Get all houses:
+- Get all houses:
 
-GET http://localhost:4000/houses
-Get filtered houses by name (e.g., "ffi"):
+GET http://localhost:5000/houses
 
+- Get filtered houses by name (e.g., "ffi"):
 
-GET http://localhost:4000/houses?name=ffi
+GET http://localhost:5000/houses?name=ffi
 
 Notes
 
