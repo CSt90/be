@@ -21,7 +21,7 @@ node server
 
 API listens on port 5000 by default.
 
-## API Usage
+## API Usage (local)
 
 - Get all houses:
   GET http://localhost:5000/houses
