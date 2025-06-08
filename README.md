@@ -10,6 +10,7 @@ This Node.js API serves Hogwarts houses data with optional filtering by house na
 - Supports query parameter `?name=` for case-insensitive partial matching on house name
 - Returns JSON array of houses matching the filter
 - Static JSON data mimicking the external API structure
+- Data origin: https://wizard-world-api.herokuapp.com/houses
 
 ## Running Locally
 
@@ -31,10 +32,10 @@ API listens on port 5000 by default.
 ## Running on the web
 
 - Get all houses:
-  GET [https://wizard-world-be.onrender.com/houses]
+  GET https://wizard-world-be.onrender.com/houses
 
 - Get filtered houses by name:
-  GET [https://wizard-world-be.onrender.com/houses?name={FILTER_INPUT_STRING}]
+  GET https://wizard-world-be.onrender.com/houses?name={FILTER_INPUT_STRING}
 
 Notes
 
