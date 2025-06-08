@@ -41,4 +41,3 @@ Notes
 
 The backend is used for demonstrating server-side filtering.
 The frontend can point to this backend or the external API by setting the NEXT_PUBLIC_API_URL environment variable.
-The external API does not support filtering, so client-side filtering is needed in that case.
