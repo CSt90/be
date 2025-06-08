@@ -7,7 +7,7 @@ app.use(cors());
 
 const data = require('./houses.json')
 
-app.get('/api/houses', (req, res) => {
+app.get('/houses', (req, res) => {
   if (req.query.name == null) res.send(data);
   else{
     let houseName = req.query.name;
