@@ -29,14 +29,6 @@ API listens on port 5000 by default.
 - Get filtered houses by name:
   GET http://localhost:5000/houses?name={FILTER_INPUT_STRING}
 
-## Running on the web
-
-- Get all houses:
-  GET https://wizard-world-be.onrender.com/houses
-
-- Get filtered houses by name:
-  GET https://wizard-world-be.onrender.com/houses?name={FILTER_INPUT_STRING}
-
 Notes
 
 The backend is used for demonstrating server-side filtering.
